@@ -1,0 +1,90 @@
+file:///C:/Users/FelipeAzevedoIsmael/Desktop/trabalho%20html%20css.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Jogos</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.game {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus Jogos Favoritos</h1>
+    </header>
+    <main>
+        <section class="game-list">
+            <article class="game">
+                <h2>Jogo 1</h2>
+                <p>Descrição do Jogo 1.</p>
+            </article>
+            <article class="game">
+                <h2>Jogo 2</h2>
+                <p>Descrição do Jogo 2.</p>
+            </article>
+            <article class="game">
+                <h2>Jogo 3</h2>
+                <p>Descrição do Jogo 3.</p>
+            </article>
+            <article class="game">
+                <h2>Jogo 4</h2>
+                <p>Descrição do Jogo 4.</p>
+            </article>
+            <article class="game">
+                <h2>Jogo 5</h2>
+                <p>Descrição do Jogo 5.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Página de Jogos</p>
+    </footer>
+</body>
+</html>
